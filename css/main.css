@@ -56,6 +56,66 @@ html {
   }
 }
 
-body {
-  background-color: antiquewhite;
+.footer {
+  background-color: #84A178;
+}
+
+.footer-words__first {
+  color: #FCFCFC;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.22;
+}
+
+.footer-words__second {
+  color: #FCFCFC;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 1.205;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.social-icon {
+  background-color: #F8D24E;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.social-icon:hover, .social-icon:focus {
+  background-color: #FCFCFC;
+}
+
+.contacts-list__text {
+  color: #131313;
+  font-size: 12px;
+  line-height: 1.83;
+  text-align: right;
+}
+
+.contacts-list__phone {
+  color: #FCFCFC;
+  font-size: 12px;
+  line-height: 1.83;
+  text-align: right;
+}
+
+.line {
+  border: 1px solid #E1E1E1;
+  border-top-style: none;
+  border-left-style: none;
+  border-right-style: none;
+}
+
+.footer-copyright__text {
+  color: #7A7A7A;
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: center;
 }/*# sourceMappingURL=main.css.map */
